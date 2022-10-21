@@ -36,11 +36,10 @@ function Form({addContact, contacts}) {
             onChange={onChangeInput} 
             value={form.phone_number}></input>
         </div>
-            <div>
-                <button>Add</button>
+            <div className='btn' >
+                <button >Add</button>
             </div>
     </form>
   )
 }
-
 export default Form
